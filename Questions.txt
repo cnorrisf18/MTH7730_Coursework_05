@@ -1,0 +1,4 @@
+1a. The option becomes worthless if B is ever higher than the stock price, so B needs to be greater than the starting stock price and k.
+It needs to be larger than S0 because if it wasn't, the option would become worthless as soon as it began.
+It needs to be larger than K because since the call payoff is MAX(S-K, 0), if K is greater than B (and therefore greater than the stock price, 
+since the stock price cannot be greater than B) the option will always be worth 0 so it will never be worth buying.
